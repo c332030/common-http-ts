@@ -1,0 +1,21 @@
+
+# dependencies
+node_modules
+
+# testing
+
+
+# production
+build
+target
+
+
+# Project Files
+.idea
+*.iml
+
+.project
+.classpath
+
+# Log
+*.log*
