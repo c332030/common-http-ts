@@ -10,14 +10,14 @@
 import {
   HttpMethodEnum
   ,HttpSchemeEnum
-} from '@/enum'
+} from '../../enum'
 
 /**
  * [协议名]://[用户名]:[密码]@[主机名]:[端口]/[路径]?[查询参数]#[片段ID]
  *
  * [scheme]://[username]:[password]@[host]:[port]/[path]?[query]#[fragment]
  */
-interface RequestHeadProxy {
+export interface RequestHeadProxy {
 
   /**
    * 主机路径前的地址
@@ -29,47 +29,45 @@ interface RequestHeadProxy {
   /**
    * 请求方式 get / post
    */
-  method: HttpMethodEnum
+  method?: HttpMethodEnum
 
   /**
    * 协议 http / https
    */
-  scheme: HttpSchemeEnum
+  scheme?: HttpSchemeEnum
 
   /**
    * 用户名
    */
-  username: string
+  username?: string
 
   /**
    * 密码
    */
-  password: string
+  password?: string
 
   /**
    * 主机名
    */
-  host: string
+  host?: string
 
   /**
    * 端口
    */
-  port: number
+  port?: number
 
   /**
    * 主机下地址
     */
-  path: string
+  path?: string
 
   /**
    * get 参数
    */
-  query: Map<string, string>
+  query?: Map<string, string>
 
   /**
    * 片段 id
    */
-  fragment:string
+  fragment?: string
 }
-
-export default RequestHeadProxy;

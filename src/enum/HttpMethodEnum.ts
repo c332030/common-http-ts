@@ -7,7 +7,7 @@
  * @date 2019-7-17 11:21
  */
 
-enum HttpMethodEnum {
+export enum HttpMethodEnum {
 
   /**
    * get 请求
@@ -29,5 +29,3 @@ enum HttpMethodEnum {
    */
   ,DELETE
 }
-
-export default HttpMethodEnum;

@@ -7,10 +7,5 @@
  * @date 2019-7-17 10:46
  */
 
-import ResponseHead from './ResponseHead';
-import ResponseHeadStatus from './ResponseHeadStatus';
-
-export {
-  ResponseHead
-  ,ResponseHeadStatus
-}
+export * from './ResponseHead';
+export * from './ResponseHeadStatus';

@@ -11,11 +11,9 @@ import {
   RequestHead
 } from './request/';
 
-interface Request {
+export interface Request {
 
   head: RequestHead,
 
-  body: any
+  body?: any
 }
-
-export default Request;

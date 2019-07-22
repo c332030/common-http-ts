@@ -7,12 +7,10 @@
  * @date 2019-7-17 10:49
  */
 
-import Head from './Head'
-import Request from './Request'
-import Response from './Response'
+export * from './Head'
+export * from './Request'
+export * from './Response'
 
-export {
-  Head
-  ,Request
-  ,Response
-}
+export * from './config'
+export * from './request/index'
+export * from './response/index'

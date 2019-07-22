@@ -12,7 +12,7 @@ import {
   ,Response
 } from '../entity/'
 
-class HttpService {
+export class HttpService {
 
   /**
    * 获取完整的请求链接
@@ -56,5 +56,3 @@ class HttpService {
     return response;
   }
 }
-
-export default HttpService;

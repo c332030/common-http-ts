@@ -2,7 +2,7 @@
   "name": "@c332030/common-http-ts",
   "version": "1.0.0",
   "description": "Common-http",
-  "main": "build/index.d.ts",
+  "main": "src/index.ts",
   "author": "c332030",
   "license": "MIT",
   "private": true,

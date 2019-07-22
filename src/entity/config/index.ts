@@ -7,8 +7,4 @@
  * @date 2019-7-17 10:46
  */
 
-import AxiosConfig from './AxiosConfig';
-
-export {
-  AxiosConfig
-}
+export * from './AxiosConfig';

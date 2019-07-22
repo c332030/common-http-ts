@@ -7,8 +7,4 @@
  * @date 2019-7-17 13:49
  */
 
-import HttpService from './HttpService'
-
-export {
-  HttpService
-}
+export * from './HttpService'

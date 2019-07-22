@@ -7,11 +7,11 @@
  * @date 2019-7-17 10:42
  */
 
-import Head from '../Head';
+import {Head} from '../Head';
 
-import ResponseHeadStatus from './ResponseHeadStatus';
+import {ResponseHeadStatus} from './ResponseHeadStatus';
 
-interface ResponseHead extends Head {
+export interface ResponseHead extends Head {
 
   /**
    * 响应日期
@@ -25,5 +25,3 @@ interface ResponseHead extends Head {
 
   status: ResponseHeadStatus
 }
-
-export default ResponseHead;

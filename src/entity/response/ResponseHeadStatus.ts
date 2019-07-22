@@ -8,9 +8,7 @@
  * @date 2019-7-17 10:28
  */
 
-interface ResponseHeadStatus {
+export interface ResponseHeadStatus {
   code: string,
   message: string
 }
-
-export default ResponseHeadStatus;

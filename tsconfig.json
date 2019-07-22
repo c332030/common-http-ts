@@ -17,9 +17,6 @@
     ],
 
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
 
     "rootDir":"./src",      // 仅用来控制输出的目录结构 --outDir。
     "outDir":"./build"     // 重定向输出目录。

@@ -7,8 +7,11 @@
  * @date 2019-7-18 14:56
  */
 
-const AxiosConfig = {
-  name: 'AxiosConfig'
-};
+import {
+  RequestHeadProxy
+} from '../request/'
 
-export default AxiosConfig;
+export interface AxiosConfig {
+
+  proxy: RequestHeadProxy
+}

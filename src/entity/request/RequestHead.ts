@@ -7,17 +7,13 @@
  * @date 2019-7-17 10:40
  */
 
-import Head from '../Head';
+import { Head } from '../Head';
 
-import RequestHeadProxy from './RequestHeadProxy';
-
+import { RequestHeadProxy } from './RequestHeadProxy';
 
 /**
  * 报文体的头
  */
-interface RequestHead extends Head {
-
-  proxy: RequestHeadProxy | null
+export interface RequestHead extends Head {
+  proxy ?: RequestHeadProxy | null
 }
-
-export default RequestHead;

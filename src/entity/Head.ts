@@ -10,7 +10,7 @@
 /**
  * 报文体的头
  */
-interface Head {
+export interface Head {
 
   /**
    * 请求日期
@@ -22,5 +22,3 @@ interface Head {
    */
   requestTime: string
 }
-
-export default Head;

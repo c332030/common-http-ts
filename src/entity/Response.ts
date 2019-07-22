@@ -9,11 +9,9 @@
 
 import { ResponseHead } from './response/'
 
-interface Response {
+export interface Response {
 
   head: ResponseHead,
 
-  body: any
+  body?: any
 }
-
-export default Response;
