@@ -13,5 +13,5 @@ import {
 
 export interface AxiosConfig {
 
-  proxy: RequestHeadProxy
+  proxy?: RequestHeadProxy
 }

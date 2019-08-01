@@ -24,7 +24,7 @@ export interface RequestHeadProxy {
    *
    * [scheme]://[username]:[password]@[host]:[port]/
    */
-  url: string
+  url?: string
 
   /**
    * 请求方式 get / post

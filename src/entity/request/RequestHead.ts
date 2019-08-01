@@ -15,5 +15,8 @@ import { RequestHeadProxy } from './RequestHeadProxy';
  * 报文体的头
  */
 export interface RequestHead extends Head {
+
+  method: string
+
   proxy ?: RequestHeadProxy | null
 }
