@@ -12,3 +12,5 @@ export * from './entity';
 export * from './enum';
 
 export * from './service';
+
+export * from './util';
